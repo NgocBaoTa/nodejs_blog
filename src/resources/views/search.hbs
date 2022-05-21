@@ -1,0 +1,28 @@
+<div class="mt-4">
+  {{! action="/news" }}
+  <form action="" method="POST">
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping">Search</span>
+      <input
+        type="text"
+        name="q"
+        class="form-control"
+        placeholder="Search..."
+      />
+      <input type="text" name="fullname" />
+      <input type="text" name="age" />
+    </div>
+
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping">Gender</span>
+      <select name="gender" class="form-control">
+        <option value="">--- Chọn giới tính ---</option>
+        <option value="male">Nam</option>
+        <option value="female">Nữ</option>
+      </select>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
